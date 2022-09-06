@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "scripts": { 
+    "iniciar-sv": "json-server --watch bd.json --port 5000"
+  }
+
+}

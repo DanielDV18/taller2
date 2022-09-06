@@ -1,0 +1,65 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "tipodoc":"Cédula Ciudadanía",
+        "numdoc":"1234567890",
+        "nombre":"Mario Alberto",
+        "apellido":"Yepes Caicedo",
+        "fnacimiento": "1982-06-25",
+        "email": "marioyepes@gmail.com",
+        "password":"qwerty"
+      },
+      {
+        "id": 2,
+        "tipodoc":"Pasaporte",
+        "numdoc":"198765432",
+        "nombre":"Laura María",
+        "apellido":"Esguerra Cortés",
+        "fnacimiento": "1987-03-15",
+        "email": "lauraesguerra@gmail.com",
+        "password":"123456"
+      }
+    ],
+    "habitacion":[
+        {
+            "id":101,
+            "nombrehab":"Suite Deluxe",
+            "capacidad":3,
+            "camas":2,
+            "caracteristicas":"2 camas 1 doble 1 sencilla, baño privado",
+            "valornoche":125000
+        },
+      
+        {
+            "id":102,
+            "nombrehab":"Suite Basic",
+            "capacidad":2,
+            "camas":1,
+            "caracteristicas":"1 cama doble, baño privado",
+            "valornoche":100000
+        }
+    ],
+    "reservas": [
+      {
+        "id": 1,
+        "fechareserva": "2022-07-07",
+        "fechaentrada":"2022-08-22",
+        "fechasalida":"2022-08-26",
+        "totalnoches":5,
+        "valorreserva":625000,
+        "userId": 1,
+        "habitacionId":101
+      },
+      {
+        "id": 2,
+        "fechareserva": "2022-04-07",
+        "totalnoches":2,
+        "fechaentrada":"2022-08-20",
+        "fechasalida":"2022-08-21",
+        "valorreserva":300000,
+        "userId": 2,
+        "habitacionId":102
+      }      
+    ]
+  }
